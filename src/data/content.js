@@ -13,11 +13,7 @@ export const SOCIAL_LINKS = [
   { label: 'TIKTOK', href: 'https://www.tiktok.com/@phen6m' },
 ];
 
-export const STATS = [
-  { value: '3.400+', label: 'ALUNOS ATIVOS' },
-  { value: '47', label: 'PAÍSES ALCANÇADOS' },
-  { value: 'R$38M+', label: 'FATURADOS POR ALUNOS' },
-];
+export const STATS = [{ value: 'R$11M+', label: 'FATURADOS GLOBALMENTE' }];
 
 export const DOR_ITEMS = [
   {
@@ -49,8 +45,8 @@ export const PILLARS = [
   },
   {
     Icon: TrafficIcon,
-    title: 'Tráfego global',
-    desc: 'Criativos e campanhas que convertem em qualquer idioma e mercado.',
+    title: 'Tráfego Global',
+    desc: 'Tráfego Orgânico que converte em qualquer idioma e mercado.',
   },
   {
     Icon: AutomationIcon,

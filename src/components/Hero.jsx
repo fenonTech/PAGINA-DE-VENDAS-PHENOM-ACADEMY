@@ -12,8 +12,8 @@ export default function Hero() {
           VOCÊ NÃO PRECISA SAIR DE CASA PRA VENDER PRO <span className="accent">mundo inteiro</span>
         </h1>
         <p className="hero__subtitle">
-          Tem gente vendendo pro mundo inteiro de qualquer lugar, sem CLT, sem chefe, sem teto de salário. PHENOM
-          Academy é o método que tira você dessa troca.
+          Enquanto você troca tempo por um salário fixo, tem gente vendendo pro mundo inteiro de qualquer lugar, sem
+          CLT, sem chefe, sem limite pra quanto pode ganhar. PHENOM Academy é o método que te tira dessa troca.
         </p>
 
         <div className="vsl">
