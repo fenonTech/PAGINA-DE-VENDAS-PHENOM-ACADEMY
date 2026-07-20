@@ -1,0 +1,133 @@
+/* ==========================================================================
+   PHENOM Academy — Global styles (reset, tokens, shared primitives)
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0a0a0a;
+  --bg-alt: #0e0e0e;
+  --card: #101010;
+  --border: rgba(255, 255, 255, 0.14);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --text: #f4f4f2;
+  --text-muted: #c8c8c8;
+  --text-dim: #9a9a9a;
+  --text-dimmer: #7a7a7a;
+  --font-body: 'Montserrat', sans-serif;
+  --font-accent: 'Cormorant Garamond', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: #ffffff;
+  color: #0a0a0a;
+}
+
+.eyebrow {
+  font-size: 15px;
+  letter-spacing: 0.3em;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.accent {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 600;
+  text-transform: none;
+  background: linear-gradient(180deg, #ffffff, #8f8f8f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-align: center;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--pill {
+  color: #0a0a0a;
+  background: #f4f4f2;
+  padding: 11px 22px;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  border-radius: 999px;
+}
+
+.btn--main {
+  background: #f4f4f2;
+  color: #0a0a0a;
+  padding: 18px 46px;
+  font-size: 14px;
+  letter-spacing: 0.16em;
+}
+
+.btn--dark {
+  display: block;
+  width: 100%;
+  background: #0a0a0a;
+  color: #f4f4f2;
+  padding: 18px 0;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+}
+
+/* Section shared */
+.section {
+  padding: 90px 6vw;
+  background: var(--bg-alt);
+}
+
+.section__head {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 50px;
+}
+
+.section__title {
+  font-size: clamp(26px, 3.8vw, 40px);
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Reveal on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

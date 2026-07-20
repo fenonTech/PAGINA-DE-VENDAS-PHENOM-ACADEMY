@@ -1,0 +1,38 @@
+.sticky-cta {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  padding: 12px 16px;
+  background: rgba(10, 10, 10, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-top: 1px solid var(--border);
+}
+
+.sticky-cta__btn {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 40px;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  border-radius: 12px;
+}
+
+.sticky-cta-spacer {
+  display: none;
+  height: 70px;
+}
+
+@media (max-width: 860px) {
+  .sticky-cta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sticky-cta-spacer {
+    display: block;
+  }
+}

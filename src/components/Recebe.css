@@ -1,0 +1,33 @@
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+}
+
+.pillar {
+  border: 1px solid var(--border);
+  padding: 32px 26px;
+  border-radius: 18px;
+  background: var(--card);
+}
+
+.pillar__icon {
+  margin-bottom: 20px;
+}
+
+.pillar__title {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.pillar__desc {
+  color: #a8a8a8;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}

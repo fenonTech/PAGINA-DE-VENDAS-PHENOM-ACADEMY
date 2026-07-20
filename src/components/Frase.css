@@ -1,0 +1,43 @@
+.section--frase {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 180px 6vw;
+  text-align: center;
+  background: transparent;
+}
+
+.frase__title {
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.section--frase-final {
+  position: relative;
+  padding: 130px 6vw 170px;
+  text-align: center;
+  overflow: hidden;
+  background: transparent;
+}
+
+.frase-final__fade {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 0%, #0a0a0a 70%);
+}
+
+.frase-final__content {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.frase-final__title {
+  font-size: clamp(26px, 4.4vw, 44px);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: uppercase;
+}

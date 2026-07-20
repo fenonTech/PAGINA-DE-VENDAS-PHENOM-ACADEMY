@@ -1,0 +1,47 @@
+.autor {
+  max-width: 860px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.autor__photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: 30% 35%;
+  display: block;
+}
+
+.autor__title {
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 800;
+  line-height: 1.25;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.autor__text {
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.75;
+  margin: 0 0 18px;
+}
+
+.autor__text:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .autor {
+    grid-template-columns: 1fr;
+  }
+
+  .autor__photo {
+    aspect-ratio: 16 / 10;
+  }
+}
