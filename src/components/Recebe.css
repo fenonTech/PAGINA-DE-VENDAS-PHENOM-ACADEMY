@@ -1,3 +1,7 @@
+.section--recebe {
+  border-radius: 32px 32px 0 0;
+}
+
 .pillars {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

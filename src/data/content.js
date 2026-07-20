@@ -22,7 +22,7 @@ export const DOR_ITEMS = [
   },
   {
     num: '02',
-    text: 'Isso não é falta de esforço. É um sistema feito pra te manter trocando tempo por dinheiro, uma equação que nunca vai te deixar rico, só cansado.',
+    text: 'O sistema não te trava por falta de esforço. Ele foi feito pra te manter trocando tempo por dinheiro, uma equação que nunca vai te deixar rico, só cansado.',
   },
   {
     num: '03',

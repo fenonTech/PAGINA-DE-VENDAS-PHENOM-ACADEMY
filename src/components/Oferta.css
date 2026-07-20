@@ -28,9 +28,11 @@
 }
 
 .offer-card__installments {
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 1.5;
   color: #5a5a5a;
-  margin-bottom: 28px;
+  max-width: 340px;
+  margin: 0 auto 28px;
 }
 
 .offer-card__guarantee {

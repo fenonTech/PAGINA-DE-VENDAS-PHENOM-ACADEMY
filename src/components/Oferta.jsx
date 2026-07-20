@@ -8,7 +8,9 @@ export default function Oferta() {
       <div className="offer-card">
         <div className="offer-card__original">De R$ 1.440,00</div>
         <div className="offer-card__price">R$ 397,00</div>
-        <div className="offer-card__installments">ou 12x sem juros</div>
+        <div className="offer-card__installments">
+          ou 12x de R$ 41,00, custa menos que um lanche por mês pra você mudar sua vida
+        </div>
         <a href={CHECKOUT_URL} target="_blank" rel="noopener" className="btn btn--dark offer-card__cta">
           GARANTIR MINHA VAGA
         </a>

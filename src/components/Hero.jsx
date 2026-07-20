@@ -13,7 +13,7 @@ export default function Hero() {
         </h1>
         <p className="hero__subtitle">
           Enquanto você troca tempo por um salário fixo, tem gente vendendo pro mundo inteiro de qualquer lugar, sem
-          CLT, sem chefe, sem limite pra quanto pode ganhar. PHENOM Academy é o método que te tira dessa troca.
+          CLT, sem chefe, sem limite pra quanto pode ganhar. A PHENOM Academy ensina o caminho..
         </p>
 
         <div className="vsl">
